@@ -90,11 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -755,7 +750,12 @@ figcaption {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000!important;
+}
+
+.contraste-img {
+    color: #fff!important;
+    background-color: #000;
 }
 
 .portfolio-thumb {
@@ -794,12 +794,12 @@ figcaption {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    background-color: #fff;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -828,12 +828,12 @@ figcaption {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+p {
+    font-size: 14px;
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+h1 {
+
 }
 
 .bg-banniere {
