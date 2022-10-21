@@ -730,6 +730,25 @@ h4 {
     color: #333333!important;
 }
 
+blockquote {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+blockquote p {
+    font-size: 17.5px;
+    font-style: italic;
+    color: #242323!important;
+    background-color: #fff;
+}
+
+figcaption {
+    font-size: 17.5px;
+    color: #000;
+}
+
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
